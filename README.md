@@ -9,3 +9,6 @@ Web forms are one of the most basic building blocks in any web application. I wi
 <b>Configuration</b>: There are several formats for the application to specify configuration options. The most basic solution is to define your variables as keys in app.config, which uses a dictionary style to work with variables. A format that I really like because it is very extensible, is to use a class to store configuration variables. To keep things nicely organized, I'm going to create the configuration class in a separate Python module.
 
 In this section, I will implement LogIn form, form validation, receiving form data and n=many cool stuffs that webforms brings to the mix.
+
+#### 4.0 Databases
+In this section, we create a SQLAlchemy database to support our user and posts for the blog. We explored shell contexts, created users and posts and interacted with these in a playground. We wrapped the session up with creating a flask shell contect in `microblog.py` file.  
